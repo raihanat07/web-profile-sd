@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+
+/* BAGIAN HEADER */
+
+.header_atas {
+	display: flex;
+	background-image: linear-gradient(360deg, rgb(31, 146, 199),rgb(33, 157, 214));
+	box-sizing: border-box;
+	justify-content: center;	
+}
+.header_atas .logo img{
+		height: 160px;
+		width: AUTO;
+		margin: 7px auto;
+}
+.nama_sekolah h1{
+	margin: 40px 30px 0px;
+	padding-bottom: 0px;
+	font-size: 50px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+}
+.nama_sekolah h3{
+	margin-left: 30px ;
+	margin-bottom : 10px;
+	color: aliceblue;
+	font-family: sans-serif;
+}
+.header_bawah{
+	height: 50px;
+	background-color: rgb(16, 100, 179);
+	box-sizing: border-box;
+	align-content: center;
+	box-shadow: 0px -.2px rgb(58, 58, 58),
+				0px 0.7px 1px rgb(44, 43, 43);
+}
+.header_bawah nav  {
+width: 1000px;
+margin :  auto;
+padding-top: 13px;
+padding-left: 40px;
+height: 1px;;
+display: flex;
+justify-content: flex-start ;
+}
+.header nav a{
+	color: white;
+	font-family :  sans-serif;
+	font-size: 17px;
+	text-decoration: none;
+	margin-top: -13px;
+	padding:10px 15px 0;
+	height: 40px;
+	transition: .35s;
+}
+
+.header nav a:hover{
+	color: yellow;
+	text-decoration: none;
+	background-color:rgb(8, 81, 150);
+	margin-top: -15px;
+	padding:10px 15px 0;
+	height: 40px;
+	transform: translate(0,-5px);
+	box-shadow:  0px 3px .5px rgb(37, 37, 37),
+				 inset 0px 4px  yellow,
+				 inset .3px 0px .5px rgb(37, 37, 37),
+				 inset -.3px 0px .5px rgb(37, 37, 37);
+}
+
+
+

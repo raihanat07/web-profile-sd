@@ -1,0 +1,169 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* FOOTER */
+/* FOOTER BAGIAN ATAS */
+.footer_atas1{
+	width: 100%;
+	height: auto;
+	background-color: rgb(10, 154, 221);
+	margin-top: 100px;
+} 
+
+.footer_atas2{
+	width: 1200px;
+	height: auto;
+	/* background-color: rgb(201, 5, 5); */
+	margin: auto;
+	padding-bottom: 100px;
+	z-index: 1;
+	position: relative;
+}
+.footer_atas2 h1{
+	padding: 20px 10px 20px 33px;;
+	color: white;
+
+}
+ /* .footer_atas1 .bungkus{
+	background-color: rgb(38, 40, 117);
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	box-shadow: -.1px .5px 0px rgb(255, 255, 255),
+				.5px -.5px 5px rgb(0, 0, 0),
+				.5px -1px 0px rgb(0, 0, 0);
+
+} */
+
+.footer_atas2 nav{
+	margin-top: 30px;
+	/* background-color: blueviolet; */
+}
+
+.footer_atas2 nav ul {
+	list-style: none;
+}
+.footer_atas2 nav ul li{
+	padding-top: 30px;
+	/* background-color: rgb(100, 100, 100); */
+	font-size: 26px;
+	font-family: sans-serif;	
+	padding-bottom:10px;
+}
+.footer_atas2 nav ul li a{
+	text-decoration: none;
+	padding-left: 130px;
+	color: rgb(255, 255, 255);
+	transition: .3s;
+}
+
+
+.footer_atas2 nav ul li a:hover	{
+	/* background-color: rgb(100, 100, 100); */
+	font-size: 30px;	
+	padding-bottom:10px;
+	color: yellow;
+}
+
+
+/* FOOTER BAGIAN TENGAH */
+.footer_tengah1{
+	height: 150px;
+	width: 100%;
+	background-color: rgb(21, 80, 241);
+	/* box-shadow: -1px -.4px 0px rgb(255, 255, 255); */
+}
+
+.footer_tengah2{
+	width: 1200px;
+	/* background-color: rgb(165, 165, 165); */
+	height: 150px;
+	margin: auto;
+	padding: 50px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around
+}
+
+/* IKON FOOTER BAGIAN 1 */
+.footer_tengah2 .ikon1 {
+	width: 270px;
+	height: auto;
+}
+.footer_tengah2 .ikon1 img{
+	width: 28px;
+	height: auto;
+	float: left;
+}
+.footer_tengah2 .ikon1 h1{
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 5px 0px 0px 15%;
+	color: white;
+}
+
+
+
+/* IKON FOOTER BAGIAN 3 */
+.footer_tengah2 .ikon3 {
+	width: 270px;
+	height: auto;
+	margin-left: 0px;
+}
+.footer_tengah2 .ikon3 img{
+	width: 38px;
+	height: auto;
+	float: left;
+}
+.footer_tengah2 .ikon3 h1{
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 5px 0px 0px 16%;
+	color: white;
+	width: 30px;
+}
+
+/* IKON FOOTER BAGIAN 4 */
+.footer_tengah2 .ikon4 {
+	width: 270px;
+	height: auto;
+	margin-left: 20px;
+}
+.footer_tengah2 .ikon4 img{
+	margin-top: 2px;;
+	width: 39px;
+	height: auto;
+	float: left;
+}
+.footer_tengah2 .ikon4 h1{
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 5px 0px 0px 17%;
+	color: white;
+}
+
+/* FOOTER BAWAH */
+.footer_bawah1{
+	width: 100%;
+    height: auto;
+	background-color: rgb(0, 17, 167);
+	/* box-shadow: -1px -.04px 0px rgb(255, 255, 255); */
+}
+.footer_bawah2{
+	width: 1100px;
+	height: 50px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	/* background-color: rgb(0, 253, 55); */
+}
+
+.footer_bawah2 h3{
+	font-size: 17px;
+	padding: auto;
+	font-family: 'arial narrow';
+	letter-spacing: .4px;
+	padding-top: 14px;
+}

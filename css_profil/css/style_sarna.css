@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* BAGIAN BODY CONTAINER */
+body {
+	/* background-image : url(../gambar/background_utama.png); */
+	background-color: rgb(233, 233, 233);
+}
+
+/* CONTAINER ISI sarana*/
+.sarana .container{
+	width: 1200px;
+	max-width: 100%;
+	margin: 10px auto 50px ;
+	padding: 10px ;
+	background-color:   rgb(233, 233, 233);
+	transition: .4s;
+}
+
+.sarana .judul{
+    margin-top: 40px;;
+}
+.sarana .judul h1{
+    text-align: center;
+    color:rgb(68, 68, 68);
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+
+
+
+ /* isi_sar */
+.sarana .isi_sar{
+	background-color: rgb(255, 255, 255);
+	margin: 20px auto 40px;
+	padding:10px 50px;
+	width: 1100px;
+	width: fit-content;
+	height: fit-content;
+    border: .1px solid rgb(182, 182, 182);
+    transition: .3s;
+
+}
+.sarana .isi_sar:hover{
+    box-shadow: -5px 5px 5px rgb(121, 121, 121),
+                 5px -5px 5px  rgb(122, 122, 122);
+}
+
+.sarana .isi_sar .jum{
+    margin: 50px 0px 30px;
+    font-size: 30px;
+    color: rgb(10, 10, 73);
+}
+
+.sarana table,th,td{
+    text-align: center;
+    margin: 0px auto 70px;
+    border: 1px solid rgb(197, 197, 197);
+    border-collapse: collapse;
+}
+
+.sarana table th{
+    height: 50px;
+    font-size: 25px;
+    color: white;
+}
+.sarana table tr:nth-child(1){
+    background-color: rgb(29, 118, 235);
+}
+
+.sarana table td:nth-child(1){
+    width: 140px;
+}
+.sarana table td:nth-child(2){
+    width: 380px;
+    text-align: left;
+    padding-left: 7px;
+}
+.sarana table td:nth-child(3){
+    width: 290px;
+}
+.sarana table td:nth-child(4){
+    width: 290px;
+}
+.sarana table td:nth-child(5){
+    width: 150px;
+}
+.sarana table td:nth-child(6){
+    width: 200px;
+}
+
+
+
+.sarana table td{
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTAINER ISI sarana*/
+.prasarana .container{
+	width: 1200px;
+	max-width: 100%;
+	margin: 10px auto 50px ;
+	padding: 10px ;
+	background-color:   rgb(233, 233, 233);
+	transition: .4s;
+}
+
+.prasarana .judul{
+    margin-top: 40px;;
+}
+.prasarana .judul h1{
+    text-align: center;
+    color:rgb(68, 68, 68);
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+
+
+
+ /* isi_pra */
+.prasarana .isi_pra{
+	background-color: rgb(255, 255, 255);
+	margin: 20px auto 40px;
+	padding:10px 50px;
+	width: 1100px;
+	width: fit-content;
+	height: fit-content;
+    border: .1px solid rgb(182, 182, 182);
+    transition: .3s;
+
+}
+.prasarana .isi_pra:hover{
+    box-shadow: -5px 5px 5px rgb(121, 121, 121),
+                 5px -5px 5px  rgb(122, 122, 122);
+}
+
+.prasarana .isi_pra .jum{
+    margin: 50px 0px 30px;
+    font-size: 30px;
+    color: rgb(10, 10, 73);
+}
+
+.prasarana table,th,td{
+    text-align: center;
+    margin: 0px auto 70px;
+    border: 1px solid rgb(197, 197, 197);
+    border-collapse: collapse;
+}
+
+.prasarana table th{
+    height: 50px;
+    font-size: 23px;
+    color: white;
+}
+.prasarana table tr:nth-child(1){
+    background-color: rgb(29, 118, 235);
+}
+
+.prasarana table td:nth-child(1){
+    width: 140px;
+}
+.prasarana table td:nth-child(2){
+    width: 330px;
+    text-align: left;
+    padding-left: 7px;
+}
+.prasarana table td:nth-child(3){
+    width: 170px;
+}
+.prasarana table td:nth-child(4){
+    width: 170px;
+}
+.prasarana table td:nth-child(5){
+    width: 180px;
+}
+.prasarana table td:nth-child(6){
+    width: 280px;
+}
+
+
+
+.prasarana table td{
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(243, 243, 243);
+    text-transform: lowercase;
+}
+

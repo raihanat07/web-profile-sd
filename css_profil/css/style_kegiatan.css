@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* BAGIAN BODY CONTAINER */
+body {
+	/* background-image : url(../gambar/background_utama.png); */
+	background-color: rgb(233, 233, 233);
+}
+
+/* CONTAINER ISI */
+.container{
+	width: 1200px;
+	max-width: 100%;
+	margin: 40px auto 50px ;
+	padding: 10px ;
+	background-color:   rgb(233, 233, 233);
+	transition: .4s;
+}
+
+.judul{
+    margin: 40px auto -20px;;
+}
+
+.judul h1{
+    text-align: center;
+    color:rgb(68, 68, 68);
+    font-size: 40px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+/* KEGIATAN INI BOSsssss */
+.container3{
+	width: 1200px;
+	box-sizing: border-box;
+	max-width: 100%;
+	margin: 40px auto 30px;
+	padding: 30px 10px  ;
+	background-color: rgb(255, 255, 255);
+    box-shadow: -5px 5px 5px rgb(160, 160, 160),
+                5px -5px 5px  rgb(160, 160, 160);
+}
+
+ /* kegiatan */
+.kegiatan{
+	background-color: rgb(255, 255, 255);
+	/* height: fit-content; */
+	margin: 20PX auto;
+	padding:20px;
+	width: 1100px;
+	max-width: 90%;
+	height: fit-content;
+	border: .1px solid rgb(155, 155, 155);
+
+}
+
+.isi_kegiatan{
+	padding: 20px;;
+}
+
+.kegiatan h1{
+	padding: 30px 0px 30px 0px;
+	color : rgb(255, 255, 255);
+	font-size: 30px;
+	background-color: rgb(0, 187, 201);
+	font-family: sans-serif;
+	text-indent: 10px;
+}
+
+.isi_kegiatan h2{
+	margin: 20px 0px 0px; 
+	font-size: 28px;
+	font-family: sans-serif;
+	text-align: justify;
+	text-transform: capitalize;
+	/* background-color: rgb(197, 139, 255); */
+	color: rgb(73, 98, 243);
+	
+}
+
+.isi_kegiatan h3{
+	margin: 18px 0px 0px; 
+	line-height: 0px;
+	font-size: 15px;
+	text-indent: 10px;
+	text-align: justify;
+	background-color: rgb(140, 176, 197);
+	color: rgb(105, 105, 105);
+	font-family: sans-serif;
+}
+
+
+.garis{
+	width: 100%;
+	margin-left: 100px;
+	border: .1px solid rgb(231, 231, 231);
+	margin: 30px 0px 30px; 
+}
+
+.isi_kegiatan p{
+	text-indent: 20px;
+	line-height: 24px;;
+	font-size: 20px;;
+	letter-spacing: .5px;
+	text-align: justify;
+}
+
+
+.isi_kegiatan img{
+	width: 450px;
+	height: 400px;;
+	margin: 10px 30px 11px 3px;
+	float: left;
+	background-color: red;
+	box-shadow:
+				
+				1px 1px   rgb(214, 214, 214),
+				-1px 1px  rgb(214, 214, 214),
+				1px -1px   rgb(214, 214, 214),
+				-1px -1px   rgb(214, 214, 214);
+}
+
+.clear{
+    clear: both;
+}

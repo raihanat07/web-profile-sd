@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* BAGIAN BODY CONTAINER */
+body {
+	/* background-image : url(../gambar/background_utama.png); */
+	background-color: rgb(233, 233, 233);
+}
+
+/* CONTAINER ISI */
+.container{
+	width: 1200px;
+	max-width: 100%;
+	margin: 40px auto 50px ;
+	padding: 10px ;
+	background-color:   rgb(233, 233, 233);
+	transition: .4s;
+}
+
+.judul{
+    margin-top: 40px;;
+}
+.judul h1{
+    text-align: center;
+    color:rgb(68, 68, 68);
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+
+
+
+ /* siswa_siswi */
+.siswa_siswi{
+	background-color: rgb(255, 255, 255);
+	margin: 20px auto 40px;
+	padding:10px 50px;
+	width: 1100px;
+	width: fit-content;
+	height: fit-content;
+    border: .1px solid rgb(182, 182, 182);
+    transition: .3s;
+
+}
+.siswa_siswi:hover{
+    box-shadow: -5px 5px 5px rgb(121, 121, 121),
+                 5px -5px 5px  rgb(122, 122, 122);
+}
+
+.siswa_siswi .jum{
+    margin: 50px 0px 30px;
+    font-size: 30px;
+    color: rgb(10, 10, 73);
+}
+
+table,th,td{
+    text-align: center;
+    margin: 0px auto 70px;
+    border: 1px solid rgb(197, 197, 197);
+    border-collapse: collapse;
+}
+
+table th{
+    height: 50px;
+    font-size: 25px;
+    color: white;
+}
+table tr:nth-child(1){
+    background-color: rgb(29, 118, 235);
+}
+table th:nth-child(1){
+    width: 220px;
+}
+table th:nth-child(2){
+    width: 320px;
+}
+table th:nth-child(3){
+    width: 290px;
+}
+table th:nth-child(4){
+    width: 290px;
+}
+
+
+
+table td{
+    height: 50px;
+    font-size: 22px;
+    background-color: rgb(248, 248, 248);
+}
+
+table tr:last-child td{
+    background-color:  rgb(29, 118, 235);
+    color: white;
+    font-size: 28px;    
+}
+
+
+
+
+
+

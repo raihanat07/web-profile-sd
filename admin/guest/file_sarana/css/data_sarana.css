@@ -1,0 +1,97 @@
+
+.clear{
+	clear: both;
+}
+.badan{
+	min-width: 1000px; ;
+	max-width: fit-content;
+	/* background-color: rgba(112, 112, 112, 0.171); */
+	margin: auto auto auto 0px;
+	padding-right: 30px;;
+	
+}
+
+.judul{
+	text-align: center;
+	color: rgb(117, 117, 117);
+	font-family: arial;
+	margin-bottom: 30px;
+
+}
+
+.bungkus_utama{
+	margin: auto auto 30px 30px;
+	background-color: rgb(247, 247, 247);
+	width: fit-content;	
+	box-shadow: 2px -2px 10px .001px rgb(184, 184, 184);
+}
+
+.bungkus_table{
+	background-color: rgb(255, 255, 255);
+	padding: 30px 20px 50px ;
+	box-shadow: 0px -.1px 2px  rgb(184, 184, 184);
+
+}
+
+
+
+table td,table th{
+	border: 1px solid rgb(190, 190, 190);
+	color: rgb(119, 119, 119);
+}
+table th{
+	text-align: center;
+	height: 50px;
+}
+table td{
+	padding: 15px;
+	height: 100px;
+	vertical-align: top;
+}
+
+/* lebar td */
+table td:nth-child(1){
+	width: 50px;
+}
+table td:nth-child(2){
+	width: 190px;
+}
+
+table td:nth-child(3){
+	width: 220px;
+}
+
+table td:nth-child(4){
+	width: 170px;
+}
+table td:nth-child(5){
+	width: 80px;
+}
+table td:nth-child(6){
+	width: 80px;
+}
+table td:nth-child(7){
+	width: 215px;
+}
+
+
+/* lebar th */
+/* table th:nth-child(1){
+	width: 50px;
+}
+table th:nth-child(2){
+	width: 190px;
+}
+
+table th:nth-child(3){
+	width: 300px;
+}
+
+table th:nth-child(4){
+	width: 90px;
+} */
+
+.cetak-tambah{
+	padding: 10px 0px 0px 14px;
+}
+
